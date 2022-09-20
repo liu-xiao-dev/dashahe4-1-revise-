@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMonitoring", "HP2000Sample\WaterMonitoring.csproj", "{20C6509C-C478-4F9A-81D0-59FE9DE58AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testFloat", "testFloat\testFloat.csproj", "{2D575573-85C6-4157-81F0-CA02731CFE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testMysql", "testMysql\testMysql.csproj", "{7129DBDC-8771-4902-AB9C-048981D9956E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C6509C-C478-4F9A-81D0-59FE9DE58AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C6509C-C478-4F9A-81D0-59FE9DE58AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C6509C-C478-4F9A-81D0-59FE9DE58AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C6509C-C478-4F9A-81D0-59FE9DE58AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D575573-85C6-4157-81F0-CA02731CFE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D575573-85C6-4157-81F0-CA02731CFE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D575573-85C6-4157-81F0-CA02731CFE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D575573-85C6-4157-81F0-CA02731CFE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7129DBDC-8771-4902-AB9C-048981D9956E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7129DBDC-8771-4902-AB9C-048981D9956E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7129DBDC-8771-4902-AB9C-048981D9956E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7129DBDC-8771-4902-AB9C-048981D9956E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

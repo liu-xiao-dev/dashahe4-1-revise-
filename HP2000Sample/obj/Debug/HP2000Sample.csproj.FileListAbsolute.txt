@@ -1,0 +1,13 @@
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\PT50030Sample\bin\Debug\HP2000Sample.exe.config
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\PT50030Sample\obj\Debug\HP2000Sample.exe
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\PT50030Sample\obj\Debug\HP2000Sample.pdb
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\bin\Debug\HP2000Sample.exe.config
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.exe
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.pdb
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\bin\Debug\HP2000Sample.exe
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\bin\Debug\HP2000Sample.pdb
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\bin\Debug\HP2000_wrapper.dll
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.csprojResolveAssemblyReference.cache
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.Form1.resources
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.Properties.Resources.resources
+F:\cyywork\led_spectrum\dllproject\PC应用\c#\HP2000Sample_f1.2\HP2000Sample\obj\Debug\HP2000Sample.csproj.GenerateResource.Cache

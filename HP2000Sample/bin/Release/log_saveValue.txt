@@ -1,0 +1,18 @@
+2019-11-24 22:53:43,读取文件的timer函数错误:System.OverflowException: 算术运算导致溢出。
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 535
+2019-11-25 22:36:02,读取文件的timer函数错误:System.OverflowException: 算术运算导致溢出。
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 474
+2019-11-25 22:41:02,读取文件的timer函数错误:System.OverflowException: 算术运算导致溢出。
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 474
+2019-11-26 12:14:51,每10分钟更新曲线以及数据保存出错:System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 513
+2019-11-27 17:56:35,每10分钟更新曲线以及数据保存出错:System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 498
+2019-11-27 18:06:35,每10分钟更新曲线以及数据保存出错:System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 ATP2000Sample.Form1.TimerUp(Object sender, ElapsedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 498

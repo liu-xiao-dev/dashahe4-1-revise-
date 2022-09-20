@@ -1,0 +1,2017 @@
+出现应用程序未处理的异常：2019/4/21 21:13:40
+异常类型：IOException
+异常消息：文件“C:\Users\大雷子\Desktop\0413加判断注释弹窗改公式 (1)\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\bin\Release\errorlog.txt”正由另一进程使用，因此该进程无法访问此文件。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 ATP2000Sample.Form1.WriteErrorLog(Exception ex) 位置 c:\Users\大雷子\Desktop\0413加判断注释弹窗改公式 (1)\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 523
+   在 ATP2000Sample.Form1.btn_openDevice_Click(Object sender, EventArgs e) 位置 c:\Users\大雷子\Desktop\0413加判断注释弹窗改公式 (1)\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 399
+   在 ATP2000Sample.Form1.Form1_Load(Object sender, EventArgs e) 位置 c:\Users\大雷子\Desktop\0413加判断注释弹窗改公式 (1)\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 132
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：Void WinIOError(Int32, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/8 23:55:11
+异常类型：ArgumentOutOfRangeException
+异常消息：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+异常信息：   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStripItemCollection.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：System.Object get_Item(Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/14 8:06:25
+异常类型：ArgumentOutOfRangeException
+异常消息：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+异常信息：   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStripItemCollection.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：System.Object get_Item(Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/16 19:42:42
+异常类型：ArgumentOutOfRangeException
+异常消息：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+异常信息：   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStripItemCollection.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：System.Object get_Item(Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/26 10:31:59
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 System.Windows.Forms.ToolStripStatusLabel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandlePaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void OnPaint(System.Windows.Forms.PaintEventArgs)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/31 20:06:18
+异常类型：DllNotFoundException
+异常消息：无法加载 DLL“Driver.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+异常信息：   在 HP2000_wrapper.PT50030dll.getDarkCorrectionCoefficient()
+   在 HP2000_wrapper.HP2000Wrapper..ctor()
+   在 ATP2000Sample.Form1..ctor() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 23
+   在 ATP2000Sample.Program.Main() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Program.cs:行号 29
+
+异常对象：HP2000_wrapper
+触发方法：HP2000_wrapper.DarkFactorArraysp getDarkCorrectionCoefficient()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/31 20:06:31
+异常类型：DllNotFoundException
+异常消息：无法加载 DLL“Driver.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+异常信息：   在 HP2000_wrapper.PT50030dll.getDarkCorrectionCoefficient()
+   在 HP2000_wrapper.HP2000Wrapper..ctor()
+   在 ATP2000Sample.Form1..ctor() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 23
+   在 ATP2000Sample.Program.Main() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Program.cs:行号 29
+
+异常对象：HP2000_wrapper
+触发方法：HP2000_wrapper.DarkFactorArraysp getDarkCorrectionCoefficient()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/5/31 20:06:38
+异常类型：DllNotFoundException
+异常消息：无法加载 DLL“Driver.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+异常信息：   在 HP2000_wrapper.PT50030dll.getDarkCorrectionCoefficient()
+   在 HP2000_wrapper.HP2000Wrapper..ctor()
+   在 ATP2000Sample.Form1..ctor() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 23
+   在 ATP2000Sample.Program.Main() 位置 c:\Users\zyc\Desktop\水质监测\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Program.cs:行号 29
+
+异常对象：HP2000_wrapper
+触发方法：HP2000_wrapper.DarkFactorArraysp getDarkCorrectionCoefficient()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/6 13:55:50
+Application UnhandledException:端口被关闭。;
+堆栈信息:   在 System.IO.Ports.SerialPort.get_BytesToRead()
+   在 ATP2000Sample.Form1.serialPort4_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\大雷子\Desktop\0706雷会平\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.cs:行号 7739
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System
+触发方法：Int32 get_BytesToRead()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/6 16:47:08
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/6 19:19:19
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form2.btn_close_Click(Object sender, EventArgs e) 位置 c:\Users\大雷子\Desktop\0706雷会平\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 731
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void btn_close_Click(System.Object, System.EventArgs)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/6 19:19:20
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form2.btn_close_Click(Object sender, EventArgs e) 位置 c:\Users\大雷子\Desktop\0706雷会平\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 731
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void btn_close_Click(System.Object, System.EventArgs)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/8 16:47:19
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form2.DrawWave(Single[] fWaveData, Single[] fSpectrumData, Int32 size) 位置 c:\0708版本\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 142
+   在 ATP2000Sample.Form2.passPara(Single[] fWaveData, Single[] fSpectrumData, Int32 size) 位置 c:\0708版本\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 810
+   在 ATP2000Sample.Form2.Form2_Load(Object sender, EventArgs e) 位置 c:\0708版本\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 69
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void DrawWave(Single[], Single[], Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/10 22:31:55
+异常类型：ArgumentOutOfRangeException
+异常消息：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+异常信息：   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStripItemCollection.get_Item(Int32 index)
+   在 System.Windows.Forms.ToolStrip.GetItemAt(Point point)
+   在 System.Windows.Forms.ToolStrip.OnMouseMove(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseMove(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：System.Object get_Item(Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/15 11:45:30
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form2.DrawWave(Single[] fWaveData, Single[] fSpectrumData, Int32 size) 位置 c:\0708版本10_2\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 144
+   在 ATP2000Sample.Form2.passPara(Single[] fWaveData, Single[] fSpectrumData, Int32 size) 位置 c:\0708版本10_2\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 817
+   在 ATP2000Sample.Form2.Form2_Load(Object sender, EventArgs e) 位置 c:\0708版本10_2\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form2.cs:行号 73
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void DrawWave(Single[], Single[], Int32)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/17 2:20:12
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 System.Windows.Forms.ToolStripLabel.PaintText(Graphics g)
+   在 System.Windows.Forms.ToolStripStatusLabel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandlePaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void PaintText(System.Drawing.Graphics)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/20 21:26:21
+异常类型：InvalidOperationException
+异常消息：执行 CreateHandle() 时无法调用值 Dispose()。
+异常信息：   在 System.Windows.Forms.Control.Dispose(Boolean disposing)
+   在 System.Windows.Forms.ToolStrip.Dispose(Boolean disposing)
+   在 System.Windows.Forms.StatusStrip.Dispose(Boolean disposing)
+   在 System.ComponentModel.Component.Dispose()
+   在 System.Windows.Forms.Control.Dispose(Boolean disposing)
+   在 System.Windows.Forms.Form.Dispose(Boolean disposing)
+   在 ATP2000Sample.Form1.Dispose(Boolean disposing) 位置 c:\0708版本10_2\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.Designer.cs:行号 20
+   在 System.ComponentModel.Component.Dispose()
+   在 System.Windows.Forms.Form.WmClose(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void Dispose(Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/24 23:19:46
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 System.Windows.Forms.ToolStripLabel.PaintText(Graphics g)
+   在 System.Windows.Forms.ToolStripStatusLabel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandlePaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void PaintText(System.Drawing.Graphics)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/25 22:56:21
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 System.Windows.Forms.ToolStripLabel.PaintText(Graphics g)
+   在 System.Windows.Forms.ToolStripStatusLabel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandlePaint(PaintEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.StatusStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void PaintText(System.Drawing.Graphics)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/7/26 14:03:18
+异常类型：InvalidOperationException
+异常消息：执行 CreateHandle() 时无法调用值 Dispose()。
+异常信息：   在 System.Windows.Forms.Control.Dispose(Boolean disposing)
+   在 System.Windows.Forms.TextBox.Dispose(Boolean disposing)
+   在 System.ComponentModel.Component.Dispose()
+   在 System.Windows.Forms.Control.Dispose(Boolean disposing)
+   在 System.Windows.Forms.Form.Dispose(Boolean disposing)
+   在 ATP2000Sample.Form1.Dispose(Boolean disposing) 位置 c:\新建文件夹0726\0708版本10_2-12\0708雷会平_2\0528新批次传感器\加流量加画图102运行有错误日志进度日志未屏蔽流量版本02\20190307加流量再修改1_ATP2000Sample_V1.2\HP2000Sample\Form1.Designer.cs:行号 20
+   在 System.ComponentModel.Component.Dispose()
+   在 System.Windows.Forms.Form.WmClose(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void Dispose(Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 18:45:15
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 18:46:30
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 18:51:58
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 18:53:56
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 19:01:26
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 19:04:47
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 21:37:05
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-10-27 21:37:34
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:03:00
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:04:38
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:05:40
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:07:18
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:14:34
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-01 14:15:55
+异常类型：InvalidOperationException
+异常消息：轴对象 - 自动间隔没有正确的值。
+异常信息：   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis(Double& minimumValue, Double& maximumValue, Boolean autoMaximum, Boolean autoMinimum)
+   在 System.Windows.Forms.DataVisualization.Charting.Axis.EstimateAxis()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetDefaultAxesValues()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.SetData(Boolean initializeAxes, Boolean checkIndexedAligned)
+   在 System.Windows.Forms.DataVisualization.Charting.ChartArea.ReCalcInternal()
+   在 System.Windows.Forms.DataVisualization.Charting.ChartPicture.Paint(Graphics graph, Boolean paintTopLevelElementOnly)
+   在 System.Windows.Forms.DataVisualization.Charting.Chart.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.WmPaint(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms.DataVisualization
+触发方法：Double EstimateAxis(Double ByRef, Double ByRef, Boolean, Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-06 13:35:58
+Application UnhandledException:不支持给定路径的格式。;
+堆栈信息:   在 System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.CreateText(String path)
+   在 ATP2000Sample.Form1.SaveWaveDataAuto(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191025页面已美化)\HP2000Sample\Form1.cs:行号 8459
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：mscorlib
+触发方法：Void EmulateFileIOPermissionChecks(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-06 13:37:35
+Application UnhandledException:不支持给定路径的格式。;
+堆栈信息:   在 System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.CreateText(String path)
+   在 ATP2000Sample.Form1.SaveWaveDataAuto(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191025页面已美化)\HP2000Sample\Form1.cs:行号 8459
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：mscorlib
+触发方法：Void EmulateFileIOPermissionChecks(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-06 13:41:41
+Application UnhandledException:不支持给定路径的格式。;
+堆栈信息:   在 System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.CreateText(String path)
+   在 ATP2000Sample.Form1.SaveWaveDataAuto(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191025页面已美化)\HP2000Sample\Form1.cs:行号 8463
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：mscorlib
+触发方法：Void EmulateFileIOPermissionChecks(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-06 13:43:00
+Application UnhandledException:未能找到路径“C:\A路\A__2019年11月6日_13_42_49.txt”的一部分。;
+堆栈信息:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.CreateText(String path)
+   在 ATP2000Sample.Form1.SaveWaveDataAuto(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191025页面已美化)\HP2000Sample\Form1.cs:行号 8464
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：mscorlib
+触发方法：Void WinIOError(Int32, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-12 17:57:28
+Application UnhandledException:线程间操作无效: 从不是创建控件“MSGShow”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   在 System.Windows.Forms.Form.Close()
+   在 ATP2000Sample.Form1.ShowHintMsgThread(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191108页面已美化) - 副本\HP2000Sample\Form1.cs:行号 4144
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-16 16:05:27
+Application UnhandledException:文件“C:\SaveData\A路\A__2019年11月16日_16_05_27.txt”正由另一进程使用，因此该进程无法访问此文件。;
+堆栈信息:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.CreateText(String path)
+   在 ATP2000Sample.Form1.SaveWaveDataAuto(Object obj) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池)\HP2000Sample\Form1.cs:行号 5026
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：mscorlib
+触发方法：Void WinIOError(Int32, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 17:55:52
+异常类型：InvalidOperationException
+异常消息：端口被关闭。
+异常信息：   在 System.IO.Ports.SerialPort.DiscardInBuffer()
+   在 ATP2000Sample.Form1.CaptureSpectrumDataContinuous_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4914
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void DiscardInBuffer()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 17:55:54
+异常类型：InvalidOperationException
+异常消息：端口被关闭。
+异常信息：   在 System.IO.Ports.SerialPort.DiscardInBuffer()
+   在 ATP2000Sample.Form1.CaptureSpectrumDataContinuous_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4914
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void DiscardInBuffer()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 17:57:00
+异常类型：InvalidOperationException
+异常消息：端口被关闭。
+异常信息：   在 System.IO.Ports.SerialPort.DiscardInBuffer()
+   在 ATP2000Sample.Form1.CaptureSpectrumDataContinuous_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4914
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void DiscardInBuffer()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 17:57:01
+异常类型：InvalidOperationException
+异常消息：端口被关闭。
+异常信息：   在 System.IO.Ports.SerialPort.DiscardInBuffer()
+   在 ATP2000Sample.Form1.CaptureSpectrumDataContinuous_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4914
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void DiscardInBuffer()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 20:56:55
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 20:58:18
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:01:11
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:02:08
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:08:07
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:08:55
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:09:52
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-17 21:11:29
+Application UnhandledException:线程间操作无效: 从不是创建控件“msgBoard”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.set_WindowText(String value)
+   在 System.Windows.Forms.Control.set_Text(String value)
+   在 System.Windows.Forms.Label.set_Text(String value)
+   在 ATP2000Sample.Form1.showHintMsg(String msg) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 4217
+   在 ATP2000Sample.Form1.serialPortSpectrum_DataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191115+添加接收数据缓冲池) - 副本\HP2000Sample\Form1.cs:行号 1764
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-18 22:01:11
+异常类型：OverflowException
+异常消息：算术运算导致溢出。
+异常信息：   在 ATP2000Sample.Form1.previousDay_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191118+开关灯）\HP2000Sample\Form1.cs:行号 4436
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void previousDay_Click(System.Object, System.EventArgs)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-20 18:25:31
+异常类型：ArgumentException
+异常消息：PortName 不能为空。
+参数名: PortName
+异常信息：   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 731
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 4969
+   在 ATP2000Sample.Form1.Form1_Load(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 286
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void set_PortName(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-20 18:26:58
+异常类型：ArgumentException
+异常消息：PortName 不能为空。
+参数名: PortName
+异常信息：   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 731
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 4971
+   在 ATP2000Sample.Form1.Form1_Load(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 286
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void set_PortName(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-20 18:27:32
+异常类型：ArgumentException
+异常消息：PortName 不能为空。
+参数名: PortName
+异常信息：   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 731
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 4971
+   在 ATP2000Sample.Form1.Form1_Load(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191119+开关灯+光谱数据找帧头）\HP2000Sample\Form1.cs:行号 286
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void set_PortName(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-20 19:19:37
+异常类型：ArgumentException
+异常消息：PortName 不能为空。
+参数名: PortName
+异常信息：   在 System.IO.Ports.SerialPort.set_PortName(String value)
+   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191120+开关灯+光谱数据找帧头+优化保存传感器数据）\HP2000Sample\Form1.cs:行号 737
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191120+开关灯+光谱数据找帧头+优化保存传感器数据）\HP2000Sample\Form1.cs:行号 4978
+   在 ATP2000Sample.Form1.Form1_Load(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191120+开关灯+光谱数据找帧头+优化保存传感器数据）\HP2000Sample\Form1.cs:行号 292
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void set_PortName(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:19
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:19
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintTransparentBackground(PaintEventArgs e, Rectangle rectangle, Region transparentRegion)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle, Color backColor, Point scrollOffset)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle)
+   在 System.Windows.Forms.Control.OnPaintBackground(PaintEventArgs pevent)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:19
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintTransparentBackground(PaintEventArgs e, Rectangle rectangle, Region transparentRegion)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle, Color backColor, Point scrollOffset)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle)
+   在 System.Windows.Forms.Control.OnPaintBackground(PaintEventArgs pevent)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:23
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.label_tone_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3622
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:25
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelNO3_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3632
+   在 ATP2000Sample.Form1.label_NO3_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3640
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:26
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelPO4_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3687
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:26
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTOC_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3705
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:27
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelDO_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3723
+   在 ATP2000Sample.Form1.label_DO_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3731
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:28
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelBOD_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3564
+   在 ATP2000Sample.Form1.label_BOD_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3572
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:29
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelNO2_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3669
+   在 ATP2000Sample.Form1.label_NO2_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3677
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:30
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelNH4_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3651
+   在 ATP2000Sample.Form1.label_NH4_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3659
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:31
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelNO3_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3632
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:57
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:57
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintTransparentBackground(PaintEventArgs e, Rectangle rectangle, Region transparentRegion)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle, Color backColor, Point scrollOffset)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle)
+   在 System.Windows.Forms.Control.OnPaintBackground(PaintEventArgs pevent)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-21 21:53:57
+异常类型：IndexOutOfRangeException
+异常消息：索引超出了数组界限。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3762
+   在 ATP2000Sample.Form1.panelTone_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3614
+   在 ATP2000Sample.Form1.panelTone_Paint(Object sender, PaintEventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191121+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗）\HP2000Sample\Form1.cs:行号 3626
+   在 System.Windows.Forms.Control.OnPaint(PaintEventArgs e)
+   在 CCWin.SkinControl.SkinPanel.zj7qWkwhyx7pVHoOsmpa(Object , Object )
+   在 CCWin.SkinControl.SkinPanel.OnPaint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.PaintTransparentBackground(PaintEventArgs e, Rectangle rectangle, Region transparentRegion)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle, Color backColor, Point scrollOffset)
+   在 System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle)
+   在 System.Windows.Forms.Control.OnPaintBackground(PaintEventArgs pevent)
+   在 System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   在 System.Windows.Forms.Control.OnPrint(PaintEventArgs e)
+   在 System.Windows.Forms.Control.WmPrintClient(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019/11/22 18:40:28
+Application UnhandledException:类型“System.Double”的对象无法转换为类型“System.Single”。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 ATP2000Sample.Form1.CalculateUV254AndCOD(Object obj) 位置 c:\程序备份\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线）\HP2000Sample\Form1.cs:行号 5095
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+异常对象：System.Windows.Forms
+触发方法：System.Object MarshaledInvoke(System.Windows.Forms.Control, System.Delegate, System.Object[], Boolean)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:44:46
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:44:47
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:44:48
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:44:50
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:45:10
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:45:11
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-23 12:45:12
+异常类型：ObjectDisposedException
+异常消息：无法访问已释放的对象。
+对象名:“mask”。
+异常信息：   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 ATP2000Sample.Form1.label_Time_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191122+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4561
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System.Windows.Forms
+触发方法：Void CreateHandle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-24 22:48:58
+异常类型：OverflowException
+异常消息：算术运算导致溢出。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3764
+   在 ATP2000Sample.Form1.panelTurbidity_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3477
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-24 22:48:59
+异常类型：OverflowException
+异常消息：算术运算导致溢出。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3764
+   在 ATP2000Sample.Form1.panelPH_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3496
+   在 ATP2000Sample.Form1.label_PH_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3504
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-24 22:49:00
+异常类型：OverflowException
+异常消息：算术运算导致溢出。
+异常信息：   在 ATP2000Sample.Form1.pressResultUnit(String name) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3764
+   在 ATP2000Sample.Form1.panelCL_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3510
+   在 ATP2000Sample.Form1.label_cl_value_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 3519
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Void pressResultUnit(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-25 22:02:24
+异常类型：Exception
+异常消息：矩阵的行/列数不匹配。
+异常信息：   在 NSMatrix.Matrix.Multiply(Matrix other) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 388
+   在 NSMatrix.Matrix.op_Multiply(Matrix m1, Matrix m2) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 109
+   在 ATP2000Sample.Form1.startCalculationCorrect_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4198
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：NSMatrix.Matrix Multiply(NSMatrix.Matrix)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-25 22:02:45
+异常类型：Exception
+异常消息：矩阵的行/列数不匹配。
+异常信息：   在 NSMatrix.Matrix.Multiply(Matrix other) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 388
+   在 NSMatrix.Matrix.op_Multiply(Matrix m1, Matrix m2) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 109
+   在 ATP2000Sample.Form1.startCalculationCorrect_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4198
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：NSMatrix.Matrix Multiply(NSMatrix.Matrix)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-25 22:03:54
+异常类型：Exception
+异常消息：矩阵的行/列数不匹配。
+异常信息：   在 NSMatrix.Matrix.Multiply(Matrix other) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 388
+   在 NSMatrix.Matrix.op_Multiply(Matrix m1, Matrix m2) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 109
+   在 ATP2000Sample.Form1.startCalculationCorrect_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4198
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：NSMatrix.Matrix Multiply(NSMatrix.Matrix)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-25 22:10:43
+异常类型：Exception
+异常消息：矩阵的行/列数不匹配。
+异常信息：   在 NSMatrix.Matrix.Multiply(Matrix other) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 388
+   在 NSMatrix.Matrix.op_Multiply(Matrix m1, Matrix m2) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Z_Matrix.cs:行号 109
+   在 ATP2000Sample.Form1.startCalculationCorrect_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191123+开关灯+光谱数据找帧头+优化保存传感器数据+屏幕亮暗+hv254+下面曲线+new）\HP2000Sample\Form1.cs:行号 4199
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：NSMatrix.Matrix Multiply(NSMatrix.Matrix)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:13
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:15
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:17
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:20
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:24
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:10:25
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:20:42
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:20:44
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:21:09
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-11-28 20:21:34
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 ATP2000Sample.Form1.OpenSerialPortSensor(String strCOM, String strBaudRate) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 716
+   在 ATP2000Sample.Form1.btnOpenComSensor_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\Form1.cs:行号 3466
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：ATP2000Sample
+触发方法：Boolean OpenSerialPortSensor(System.String, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2019-12-01 15:57:22
+异常类型：FileNotFoundException
+异常消息：未能找到文件“F:\SaveData\123”。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   在 System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 ATP2000Sample.UDiskCopyDlg.CopyDirectory(String srcdir, String desdir) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\UDiskCopyDlg.cs:行号 111
+   在 ATP2000Sample.UDiskCopyDlg.CopyDirectory(String srcdir, String desdir) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\UDiskCopyDlg.cs:行号 99
+   在 ATP2000Sample.UDiskCopyDlg.skinButton1_Click(Object sender, EventArgs e) 位置 c:\Users\WCL\Desktop\ATP2000Sample_V2.0(20191126+光谱校正矩阵算法+曲线正确显示-至此功能完整)\HP2000Sample\UDiskCopyDlg.cs:行号 134
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 CCWin.SkinControl.SkinButton.qRpZFGwT0Q6MNbSEADM6(Object , Object )
+   在 CCWin.SkinControl.SkinButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：mscorlib
+触发方法：Void WinIOError(Int32, System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2021/1/25 16:16:25
+异常类型：SocketException
+异常消息：套接字操作尝试一个无法连接的主机。 112.74.142.132:8647
+异常信息：   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 WaterMonitoring.Form1.Form1_Load(Object sender, EventArgs e) 位置 d:\工作\上位机软件\深圳柜机\王老师交接后改\10.16软件（鄱阳湖柜机更改光谱仪30次平均）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 432
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 WaterMonitoring.Form1.WndProc(Message& m) 位置 d:\工作\上位机软件\深圳柜机\王老师交接后改\10.16软件（鄱阳湖柜机更改光谱仪30次平均）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 5665
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+异常对象：System
+触发方法：Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+---------------------------------------------------------
+出现应用程序未处理的异常：2021/3/17 17:08:33
+Application UnhandledException:线程间操作无效: 从不是创建控件“MSGShow”的线程访问它。;
+堆栈信息:   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 WaterMonitoring.Form1.showHintMsg(String msg) 位置 d:\工作\上位机软件\深圳柜机\原水8参数软件\王老师交接后改\10.16软件（鄱阳湖柜机更改光谱仪30次平均）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 3581
+   在 WaterMonitoring.Form1.sendcmdCOD_Zero() 位置 d:\工作\上位机软件\深圳柜机\原水8参数软件\王老师交接后改\10.16软件（鄱阳湖柜机更改光谱仪30次平均）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 6786
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+异常对象：System.Windows.Forms
+触发方法：IntPtr get_Handle()
+---------------------------------------------------------
+出现应用程序未处理的异常：2021/11/18 12:40:30
+异常类型：MissingManifestResourceException
+异常消息：未能找到任何适合于指定的区域性或非特定区域性的资源。请确保在编译时已将“WaterMonitoring.Form1.resources”正确嵌入或链接到程序集“WaterMonitoring”，或者确保所有需要的附属程序集都可加载并已进行了完全签名。
+异常信息：   在 System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   在 System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   在 System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   在 System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   在 System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   在 System.Resources.ResourceManager.GetObject(String name)
+   在 WaterMonitoring.Form1.InitializeComponent() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.Designer.cs:行号 653
+   在 WaterMonitoring.Form1..ctor() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 503
+   在 WaterMonitoring.Program.Main() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Program.cs:行号 29
+
+异常对象：mscorlib
+触发方法：Void HandleResourceStreamMissing(System.String)
+---------------------------------------------------------
+出现应用程序未处理的异常：2021/11/18 12:40:48
+异常类型：MissingManifestResourceException
+异常消息：未能找到任何适合于指定的区域性或非特定区域性的资源。请确保在编译时已将“WaterMonitoring.Form1.resources”正确嵌入或链接到程序集“WaterMonitoring”，或者确保所有需要的附属程序集都可加载并已进行了完全签名。
+异常信息：   在 System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   在 System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   在 System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   在 System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   在 System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   在 System.Resources.ResourceManager.GetObject(String name)
+   在 WaterMonitoring.Form1.InitializeComponent() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.Designer.cs:行号 653
+   在 WaterMonitoring.Form1..ctor() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Form1.cs:行号 503
+   在 WaterMonitoring.Program.Main() 位置 d:\工作\上位机软件\深圳柜机\源代码\5参数软件\太阳能版\三峡鄱阳湖原水柜机(叶绿素+DO+氨氮+COD+NO3+浊度+电导率)\原水（含硝氮）\ATP2000Sample_V2.0(20200701)\HP2000Sample\Program.cs:行号 29
+
+异常对象：mscorlib
+触发方法：Void HandleResourceStreamMissing(System.String)
+---------------------------------------------------------

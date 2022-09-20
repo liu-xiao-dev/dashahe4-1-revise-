@@ -1,0 +1,10 @@
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\bin\Debug\ATP2000Sample.exe.config
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\bin\Debug\ATP2000Sample.exe
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\bin\Debug\ATP2000Sample.pdb
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\bin\Debug\HP2000_wrapper.dll
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.csprojResolveAssemblyReference.cache
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.Form1.resources
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.Properties.Resources.resources
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.csproj.GenerateResource.Cache
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.exe
+E:\项目\ATP2000\ATP2000_光纤光谱仪\DOC\s11639\例程及驱动库\C#演示例程\ATP2000Sample_V1.2\HP2000Sample\obj\Debug\ATP2000Sample.pdb
